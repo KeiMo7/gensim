@@ -1,6 +1,29 @@
 Changes
 =======
 
+## Unreleased
+
+### :star2: New Features
+
+* `LdaMulticore`: opt-in reproducible training via `deterministic=True` (requires an explicit integer
+  `random_state`). Each chunk's randomness is derived from (seed, pass, chunk number) and chunk results
+  are merged in a fixed order, so two runs with the same `(seed, workers, chunksize)` configuration
+  produce element-wise identical topic-word distributions. New parameters and helpers:
+    * `checkpoint_path`: atomic per-pass training checkpoints (temp file + `os.replace`, previous
+      generation kept at `.prev`), with SHA256 integrity checking and per-part corruption reports.
+    * `LdaMulticore.resume_from_checkpoint(path, corpus, total_passes=None)`: resume interrupted
+      training; bit-identical to an uninterrupted run in deterministic mode. The corpus digest is
+      verified before resuming (`CorpusMismatchError` on mismatch).
+    * `corpus_digest(corpus, id2word)`: content-based corpus digest (vocabulary + word frequencies,
+      independent of file names/timestamps).
+    * `compare_topic_word_distributions(model_a, model_b)`: quantifies result differences (e.g. when
+      changing `workers`) as cosine similarity / symmetric KL / top-word overlap with Hungarian topic
+      alignment.
+    * `model.training_metadata`: seed, workers, corpus digest, per-pass perplexity etc., saved with
+      the model, so two models can be checked for comparability (`compare_training_metadata`).
+    * `workers` is now validated at construction time (must be a positive integer).
+  Defaults are unchanged: without `deterministic=True`, training behaves exactly as before.
+
 ## 4.4.0, 2025-10-16
 
 ### :+1: Improvements
