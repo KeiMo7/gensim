@@ -45,6 +45,7 @@ Modules:
     models/atmodel
     models/word2vec
     models/keyedvectors
+    models/vector_delta
     models/doc2vec
     models/fasttext
     models/_fasttext_bin
@@ -71,6 +72,7 @@ Modules:
     topic_coherence/text_analysis
     scripts/package_info
     scripts/glove2word2vec
+    scripts/vector_delta
     scripts/make_wikicorpus
     scripts/word2vec_standalone
     scripts/make_wiki_online

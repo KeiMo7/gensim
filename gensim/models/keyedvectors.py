@@ -55,6 +55,30 @@ TL;DR: the main difference is that KeyedVectors do not support further training.
 On the other hand, by shedding the internal data structures necessary for training, KeyedVectors offer a smaller RAM
 footprint and a simpler interface.
 
+Comparing versions and incremental updates
+==========================================
+
+Retraining a model changes both its vocabulary and its vectors.  The
+:mod:`gensim.models.vector_delta` module compares two saved versions, explains the
+change per key, and applies only the changed part without retraining.  These are
+opt-in helpers; nothing below changes how KeyedVectors are trained, saved or
+loaded.
+
+.. sourcecode:: pycon
+
+    >>> from gensim.models.vector_delta import compare_versions, incremental_update
+    >>>
+    >>> report = compare_versions('vectors-2025.kv', 'vectors-2026.kv', streaming=True)
+    >>> report.write_markdown('vectors-diff.md')
+    >>>
+    >>> record = incremental_update(
+    ...     'vectors-2025.kv', 'vectors-2026.kv', 'vectors-2026.incremental.kv',
+    ...     backup_dir='vectors-2025.backup', overwrite=True,
+    ... )
+
+See :ref:`vector_delta` for the identity rules, the vector metrics/thresholds and
+the known limitations.
+
 How to obtain word vectors?
 ===========================
 

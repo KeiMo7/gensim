@@ -1,6 +1,12 @@
 Changes
 =======
 
+## Unreleased
+
+### :star2: New Features
+
+* New `gensim.models.vector_delta` module: compare two `KeyedVectors` versions (vocabulary delta, vector delta beyond a documented threshold, per-key offsets and nearest-neighbour changes), evaluate both versions on the standard similarity tasks, and apply a delta-only incremental update that reuses unchanged rows byte for byte and keeps a rollback backup. Streaming comparison keeps memory independent of vocabulary size; the existing training and load/save interfaces are unchanged. New CLI: `python -m gensim.scripts.vector_delta {compare,explain,update,restore}`.
+
 ## 4.4.0, 2025-10-16
 
 ### :+1: Improvements
