@@ -10,6 +10,7 @@ from .docsim import (  # noqa:F401
     SparseMatrixSimilarity,
     SoftCosineSimilarity,
     WmdSimilarity)
+from .keyed import KeyedSimilarity  # noqa:F401
 from .termsim import (  # noqa:F401
     TermSimilarityIndex,
     UniformTermSimilarityIndex,

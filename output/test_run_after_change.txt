@@ -1,0 +1,7 @@
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 38%]
+ssssssssssssssssssssssssssssssssss...................................... [ 76%]
+.............................................                            [100%]
+83 passed, 106 skipped in 0.48s
+---
+....................                                                     [100%]
+20 passed in 4.75s

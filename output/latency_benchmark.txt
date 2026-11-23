@@ -1,0 +1,4 @@
+2000 docs, num_best=10, shardsize=500, 50 queries each
+plain Similarity     0.278 ms/query
+keyed, 1% deleted    0.272 ms/query
+result counts equal: True
