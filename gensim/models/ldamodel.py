@@ -353,7 +353,8 @@ class LdaModel(interfaces.TransformationABC, basemodel.BaseTopicModel):
                  alpha='symmetric', eta=None, decay=0.5, offset=1.0, eval_every=10,
                  iterations=50, gamma_threshold=0.001, minimum_probability=0.01,
                  random_state=None, ns_conf=None, minimum_phi_value=0.01,
-                 per_word_topics=False, callbacks=None, dtype=np.float32):
+                 per_word_topics=False, callbacks=None, dtype=np.float32,
+                 topic_alignment=None, topic_alignment_batch_id=None):
         """
 
         Parameters
@@ -425,9 +426,22 @@ class LdaModel(interfaces.TransformationABC, basemodel.BaseTopicModel):
             Metric callbacks to log and visualize evaluation metrics of the model during training.
         dtype : {numpy.float16, numpy.float32, numpy.float64}, optional
             Data-type to use during calculations inside model. All inputs are also converted.
+        topic_alignment : :class:`~gensim.models.topic_alignment.AlignmentConfig`, optional
+            When provided and ``enabled``, the model is aligned to a durable ledger of
+            stable topic identifiers after every training/update call. The alignment
+            result is stored on ``self.topic_alignment_result``; it does not change the
+            model's topic output. Default ``None`` leaves behaviour exactly as before.
+        topic_alignment_batch_id : str, optional
+            Batch identifier used for the first alignment. Defaults to a sequential
+            identifier derived from the ledger.
 
         """
         self.dtype = np.finfo(dtype).dtype
+
+        # Cross-batch stable topic numbering is opt-in and off by default; when it is
+        # disabled none of the alignment code runs and the model behaves as before.
+        self.topic_alignment = topic_alignment
+        self.topic_alignment_batch_id = topic_alignment_batch_id
 
         # store user-supplied parameters
         self.id2word = id2word
@@ -1046,6 +1060,46 @@ class LdaModel(interfaces.TransformationABC, basemodel.BaseTopicModel):
                 self.do_mstep(rho(), other, pass_ > 0)
                 del other
                 dirty = False
+
+        # Cross-batch stable numbering runs after training, once per update/batch, and
+        # only when explicitly enabled. It never mutates the topics themselves.
+        if getattr(self, "topic_alignment", None) is not None and self.topic_alignment.enabled:
+            self.align_topics()
+
+    def align_topics(self, batch_id=None):
+        """Align this model's topics to stable identifiers using ``self.topic_alignment``.
+
+        The alignment is a no-op (returns ``None``) unless the model was constructed
+        with an enabled :class:`~gensim.models.topic_alignment.AlignmentConfig`.
+        The ledger is written before this method returns; if the write fails,
+        :class:`~gensim.models.topic_alignment.LedgerWriteError` propagates.
+
+        Parameters
+        ----------
+        batch_id : str, optional
+            Batch identifier. Defaults to ``self.topic_alignment_batch_id`` or a
+            sequential identifier from the ledger.
+
+        Returns
+        -------
+        :class:`~gensim.models.topic_alignment.AlignmentResult` or None
+            The alignment result, also stored on ``self.topic_alignment_result``.
+
+        """
+        from gensim.models.topic_alignment import TopicAligner
+
+        config = getattr(self, "topic_alignment", None)
+        if config is None or not getattr(config, "enabled", False):
+            return None
+        aligner = TopicAligner(config)
+        if batch_id is None:
+            batch_id = getattr(self, "topic_alignment_batch_id", None)
+            if batch_id is None or aligner.ledger.has_batch(batch_id):
+                batch_id = aligner.ledger.next_batch_id()
+        result = aligner.align_and_commit(self, batch_id=batch_id)
+        self.topic_alignment_batch_id = result.batch_id
+        self.topic_alignment_result = result
+        return result
 
     def do_mstep(self, rho, other, extra_pass=False):
         """Maximization step: use linear interpolation between the existing topics and

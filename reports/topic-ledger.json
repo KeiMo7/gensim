@@ -1,0 +1,2743 @@
+{
+  "batches": [
+    {
+      "assigned_at": 1795414081.0072348,
+      "batch_id": "2026-10",
+      "config": {
+        "drift_threshold": 0.45,
+        "enabled": true,
+        "ledger_path": "reports/topic-ledger.json",
+        "max_topics": null,
+        "min_shared_terms": 5,
+        "require_previous": false,
+        "retired_grace": 0,
+        "similarity_threshold": 0.3,
+        "topn": 50
+      },
+      "identities": {
+        "T0001": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            }
+          ],
+          "label": "says / australian / said",
+          "local_index": 0,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 0,
+          "signature": {
+            "batch_id": "2026-10",
+            "local_index": 0,
+            "words": [
+              [
+                "says",
+                0.05951245
+              ],
+              [
+                "australian",
+                0.04911957
+              ],
+              [
+                "said",
+                0.04862574
+              ],
+              [
+                "pakistan",
+                0.0440222
+              ],
+              [
+                "government",
+                0.04210756
+              ],
+              [
+                "afghanistan",
+                0.03570333
+              ],
+              [
+                "force",
+                0.03315502
+              ],
+              [
+                "new",
+                0.03004877
+              ],
+              [
+                "minister",
+                0.02946416
+              ],
+              [
+                "hicks",
+                0.02203449
+              ],
+              [
+                "taliban",
+                0.02201873
+              ],
+              [
+                "india",
+                0.02159446
+              ],
+              [
+                "forces",
+                0.01982135
+              ],
+              [
+                "united",
+                0.01974354
+              ],
+              [
+                "troops",
+                0.01920491
+              ],
+              [
+                "australia",
+                0.01857035
+              ],
+              [
+                "countries",
+                0.01804687
+              ],
+              [
+                "president",
+                0.01801163
+              ],
+              [
+                "foreign",
+                0.01749522
+              ],
+              [
+                "captured",
+                0.01746559
+              ],
+              [
+                "indian",
+                0.01741849
+              ],
+              [
+                "hill",
+                0.01710275
+              ],
+              [
+                "days",
+                0.01683678
+              ],
+              [
+                "race",
+                0.01613718
+              ],
+              [
+                "south",
+                0.01613579
+              ],
+              [
+                "defence",
+                0.01559669
+              ],
+              [
+                "year",
+                0.01517507
+              ],
+              [
+                "sydney",
+                0.01416876
+              ],
+              [
+                "held",
+                0.0141544
+              ],
+              [
+                "musharraf",
+                0.01415138
+              ],
+              [
+                "interim",
+                0.01412558
+              ],
+              [
+                "trying",
+                0.01409444
+              ],
+              [
+                "union",
+                0.01380217
+              ],
+              [
+                "know",
+                0.01375296
+              ],
+              [
+                "commission",
+                0.01360142
+              ],
+              [
+                "nations",
+                0.01355692
+              ],
+              [
+                "british",
+                0.01355506
+              ],
+              [
+                "military",
+                0.01345684
+              ],
+              [
+                "states",
+                0.01331762
+              ],
+              [
+                "ago",
+                0.01271216
+              ],
+              [
+                "homes",
+                0.01220196
+              ],
+              [
+                "firefighters",
+                0.01220028
+              ],
+              [
+                "senator",
+                0.01219957
+              ],
+              [
+                "international",
+                0.01219914
+              ],
+              [
+                "help",
+                0.01219374
+              ],
+              [
+                "david",
+                0.01219296
+              ],
+              [
+                "northern",
+                0.01219151
+              ],
+              [
+                "day",
+                0.01217984
+              ],
+              [
+                "expected",
+                0.01204725
+              ],
+              [
+                "britain",
+                0.01177535
+              ]
+            ]
+          },
+          "topic_uid": "T0001"
+        },
+        "T0002": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            }
+          ],
+          "label": "palestinian / said / arafat",
+          "local_index": 1,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 0,
+          "signature": {
+            "batch_id": "2026-10",
+            "local_index": 1,
+            "words": [
+              [
+                "palestinian",
+                0.09956711
+              ],
+              [
+                "said",
+                0.06270794
+              ],
+              [
+                "arafat",
+                0.0505376
+              ],
+              [
+                "israeli",
+                0.05053743
+              ],
+              [
+                "gaza",
+                0.0341944
+              ],
+              [
+                "suicide",
+                0.02790877
+              ],
+              [
+                "israel",
+                0.02665153
+              ],
+              [
+                "security",
+                0.02642487
+              ],
+              [
+                "killed",
+                0.02618265
+              ],
+              [
+                "west",
+                0.02539543
+              ],
+              [
+                "hamas",
+                0.02539415
+              ],
+              [
+                "sharon",
+                0.02162307
+              ],
+              [
+                "bank",
+                0.021623
+              ],
+              [
+                "police",
+                0.02157036
+              ],
+              [
+                "officials",
+                0.02022123
+              ],
+              [
+                "authority",
+                0.01910999
+              ],
+              [
+                "attacks",
+                0.01819106
+              ],
+              [
+                "islamic",
+                0.01810433
+              ],
+              [
+                "people",
+                0.01733941
+              ],
+              [
+                "city",
+                0.0166703
+              ],
+              [
+                "leader",
+                0.01659592
+              ],
+              [
+                "militants",
+                0.01659084
+              ],
+              [
+                "earlier",
+                0.01557167
+              ],
+              [
+                "army",
+                0.01533832
+              ],
+              [
+                "yasser",
+                0.01533695
+              ],
+              [
+                "minister",
+                0.01532318
+              ],
+              [
+                "strikes",
+                0.01407979
+              ],
+              [
+                "strip",
+                0.01407956
+              ],
+              [
+                "bus",
+                0.01407937
+              ],
+              [
+                "meeting",
+                0.01374369
+              ],
+              [
+                "forces",
+                0.01346
+              ],
+              [
+                "called",
+                0.01282445
+              ],
+              [
+                "arrest",
+                0.01282423
+              ],
+              [
+                "palestinians",
+                0.01282278
+              ],
+              [
+                "statement",
+                0.01282277
+              ],
+              [
+                "air",
+                0.01200875
+              ],
+              [
+                "group",
+                0.01156701
+              ],
+              [
+                "tanks",
+                0.01156562
+              ],
+              [
+                "says",
+                0.01100237
+              ],
+              [
+                "prime",
+                0.01030913
+              ],
+              [
+                "groups",
+                0.01030912
+              ],
+              [
+                "soldiers",
+                0.01030876
+              ],
+              [
+                "opened",
+                0.01030871
+              ],
+              [
+                "helicopters",
+                0.01030866
+              ],
+              [
+                "gunmen",
+                0.01030857
+              ],
+              [
+                "ambush",
+                0.01030843
+              ],
+              [
+                "think",
+                0.00909262
+              ],
+              [
+                "immediately",
+                0.00905153
+              ],
+              [
+                "jewish",
+                0.0090513
+              ],
+              [
+                "israelis",
+                0.00905129
+              ]
+            ]
+          },
+          "topic_uid": "T0002"
+        },
+        "T0003": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            }
+          ],
+          "label": "says / qantas / workers",
+          "local_index": 2,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 0,
+          "signature": {
+            "batch_id": "2026-10",
+            "local_index": 2,
+            "words": [
+              [
+                "says",
+                0.06598948
+              ],
+              [
+                "qantas",
+                0.05553909
+              ],
+              [
+                "workers",
+                0.04845177
+              ],
+              [
+                "company",
+                0.03939967
+              ],
+              [
+                "maintenance",
+                0.03417764
+              ],
+              [
+                "industrial",
+                0.03417762
+              ],
+              [
+                "action",
+                0.03113667
+              ],
+              [
+                "airline",
+                0.03113072
+              ],
+              [
+                "unions",
+                0.03111476
+              ],
+              [
+                "union",
+                0.02862393
+              ],
+              [
+                "said",
+                0.02639128
+              ],
+              [
+                "today",
+                0.02441407
+              ],
+              [
+                "staff",
+                0.024305
+              ],
+              [
+                "australian",
+                0.0240468
+              ],
+              [
+                "pay",
+                0.02188009
+              ],
+              [
+                "defence",
+                0.01892271
+              ],
+              [
+                "cost",
+                0.0189196
+              ],
+              [
+                "freeze",
+                0.01891947
+              ],
+              [
+                "new",
+                0.0189185
+              ],
+              [
+                "power",
+                0.01891418
+              ],
+              [
+                "travel",
+                0.01880633
+              ],
+              [
+                "work",
+                0.01587234
+              ],
+              [
+                "labor",
+                0.0158699
+              ],
+              [
+                "debate",
+                0.01586929
+              ],
+              [
+                "offer",
+                0.01586855
+              ],
+              [
+                "like",
+                0.01586847
+              ],
+              [
+                "wage",
+                0.01586789
+              ],
+              [
+                "government",
+                0.01586513
+              ],
+              [
+                "commission",
+                0.01369237
+              ],
+              [
+                "party",
+                0.01281903
+              ],
+              [
+                "strike",
+                0.01281813
+              ],
+              [
+                "executive",
+                0.01281813
+              ],
+              [
+                "airlines",
+                0.01281754
+              ],
+              [
+                "relations",
+                0.0128169
+              ],
+              [
+                "negotiations",
+                0.01281635
+              ],
+              [
+                "cent",
+                0.01278609
+              ],
+              [
+                "ensure",
+                0.01278552
+              ],
+              [
+                "review",
+                0.01252452
+              ],
+              [
+                "jobs",
+                0.01251625
+              ],
+              [
+                "meeting",
+                0.01160703
+              ],
+              [
+                "australia",
+                0.01120668
+              ],
+              [
+                "industry",
+                0.01067312
+              ],
+              [
+                "million",
+                0.01067036
+              ],
+              [
+                "come",
+                0.01029461
+              ],
+              [
+                "energy",
+                0.01023889
+              ],
+              [
+                "years",
+                0.00976821
+              ],
+              [
+                "queensland",
+                0.00976759
+              ],
+              [
+                "proposed",
+                0.00976747
+              ],
+              [
+                "process",
+                0.00976723
+              ],
+              [
+                "claim",
+                0.00976707
+              ]
+            ]
+          },
+          "topic_uid": "T0003"
+        },
+        "T0004": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            }
+          ],
+          "label": "says / new / said",
+          "local_index": 3,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 0,
+          "signature": {
+            "batch_id": "2026-10",
+            "local_index": 3,
+            "words": [
+              [
+                "says",
+                0.07854227
+              ],
+              [
+                "new",
+                0.0721392
+              ],
+              [
+                "said",
+                0.04710173
+              ],
+              [
+                "south",
+                0.04583987
+              ],
+              [
+                "government",
+                0.03173502
+              ],
+              [
+                "york",
+                0.03081065
+              ],
+              [
+                "australian",
+                0.02534361
+              ],
+              [
+                "people",
+                0.02329606
+              ],
+              [
+                "sydney",
+                0.02329212
+              ],
+              [
+                "firefighters",
+                0.02328992
+              ],
+              [
+                "world",
+                0.01953652
+              ],
+              [
+                "coast",
+                0.01953625
+              ],
+              [
+                "wales",
+                0.01953586
+              ],
+              [
+                "attacks",
+                0.01953459
+              ],
+              [
+                "september",
+                0.01953346
+              ],
+              [
+                "company",
+                0.01953251
+              ],
+              [
+                "weather",
+                0.01953217
+              ],
+              [
+                "bureau",
+                0.01953215
+              ],
+              [
+                "counts",
+                0.019532
+              ],
+              [
+                "far",
+                0.01578385
+              ],
+              [
+                "homes",
+                0.01578086
+              ],
+              [
+                "areas",
+                0.01577965
+              ],
+              [
+                "north",
+                0.01577942
+              ],
+              [
+                "winds",
+                0.01577829
+              ],
+              [
+                "today",
+                0.01577794
+              ],
+              [
+                "helicopter",
+                0.01577663
+              ],
+              [
+                "safety",
+                0.01577642
+              ],
+              [
+                "john",
+                0.01577227
+              ],
+              [
+                "service",
+                0.01576532
+              ],
+              [
+                "charged",
+                0.0157634
+              ],
+              [
+                "general",
+                0.01488583
+              ],
+              [
+                "states",
+                0.01440842
+              ],
+              [
+                "hill",
+                0.01393374
+              ],
+              [
+                "federal",
+                0.01369632
+              ],
+              [
+                "east",
+                0.01202391
+              ],
+              [
+                "forced",
+                0.01202315
+              ],
+              [
+                "flight",
+                0.01202274
+              ],
+              [
+                "southern",
+                0.01202242
+              ],
+              [
+                "looking",
+                0.01202215
+              ],
+              [
+                "flames",
+                0.01202195
+              ],
+              [
+                "building",
+                0.01202173
+              ],
+              [
+                "property",
+                0.01202154
+              ],
+              [
+                "centre",
+                0.01202146
+              ],
+              [
+                "west",
+                0.01202119
+              ],
+              [
+                "gang",
+                0.01202115
+              ],
+              [
+                "fires",
+                0.01202079
+              ],
+              [
+                "blue",
+                0.0120207
+              ],
+              [
+                "blaze",
+                0.0120206
+              ],
+              [
+                "smoke",
+                0.01202011
+              ],
+              [
+                "pentagon",
+                0.0120201
+              ]
+            ]
+          },
+          "topic_uid": "T0004"
+        },
+        "T0005": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            }
+          ],
+          "label": "said / laden / bin",
+          "local_index": 4,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 0,
+          "signature": {
+            "batch_id": "2026-10",
+            "local_index": 4,
+            "words": [
+              [
+                "said",
+                0.07310419
+              ],
+              [
+                "laden",
+                0.0637192
+              ],
+              [
+                "bin",
+                0.06371727
+              ],
+              [
+                "says",
+                0.05181944
+              ],
+              [
+                "afghanistan",
+                0.04064403
+              ],
+              [
+                "qaeda",
+                0.03613876
+              ],
+              [
+                "united",
+                0.03258007
+              ],
+              [
+                "states",
+                0.03249206
+              ],
+              [
+                "osama",
+                0.02968305
+              ],
+              [
+                "taliban",
+                0.02662991
+              ],
+              [
+                "bora",
+                0.0264599
+              ],
+              [
+                "tora",
+                0.02645598
+              ],
+              [
+                "fighters",
+                0.02316589
+              ],
+              [
+                "area",
+                0.02181288
+              ],
+              [
+                "forces",
+                0.02139383
+              ],
+              [
+                "afghan",
+                0.02023884
+              ],
+              [
+                "attacks",
+                0.01846185
+              ],
+              [
+                "eastern",
+                0.01729264
+              ],
+              [
+                "mountains",
+                0.0172373
+              ],
+              [
+                "security",
+                0.01715918
+              ],
+              [
+                "man",
+                0.01656905
+              ],
+              [
+                "labor",
+                0.01578959
+              ],
+              [
+                "september",
+                0.01578467
+              ],
+              [
+                "people",
+                0.01468924
+              ],
+              [
+                "told",
+                0.01407132
+              ],
+              [
+                "local",
+                0.01378632
+              ],
+              [
+                "government",
+                0.0135545
+              ],
+              [
+                "defence",
+                0.01283187
+              ],
+              [
+                "pentagon",
+                0.01269141
+              ],
+              [
+                "officials",
+                0.01250795
+              ],
+              [
+                "terrorism",
+                0.01114555
+              ],
+              [
+                "bombing",
+                0.01110141
+              ],
+              [
+                "time",
+                0.01109055
+              ],
+              [
+                "federal",
+                0.01089512
+              ],
+              [
+                "anti",
+                0.01072149
+              ],
+              [
+                "captured",
+                0.01009637
+              ],
+              [
+                "asio",
+                0.00959763
+              ],
+              [
+                "tape",
+                0.00959665
+              ],
+              [
+                "terrorist",
+                0.0095954
+              ],
+              [
+                "rumsfeld",
+                0.00959319
+              ],
+              [
+                "amin",
+                0.00959285
+              ],
+              [
+                "caves",
+                0.0095877
+              ],
+              [
+                "president",
+                0.00958517
+              ],
+              [
+                "world",
+                0.00951204
+              ],
+              [
+                "spokesman",
+                0.00951182
+              ],
+              [
+                "believed",
+                0.00949029
+              ],
+              [
+                "williams",
+                0.00934851
+              ],
+              [
+                "members",
+                0.00934661
+              ],
+              [
+                "secretary",
+                0.0090672
+              ],
+              [
+                "days",
+                0.00904228
+              ]
+            ]
+          },
+          "topic_uid": "T0005"
+        }
+      },
+      "num_topics": 5,
+      "previous_batch_id": null,
+      "result": {
+        "absorptions": [],
+        "births": [
+          {
+            "history": [],
+            "label": "says / australian / said",
+            "local_index": null,
+            "missing": 0,
+            "origin_batch": "2026-10",
+            "revision": 0,
+            "signature": null,
+            "topic_uid": "T0001"
+          },
+          {
+            "history": [],
+            "label": "palestinian / said / arafat",
+            "local_index": null,
+            "missing": 0,
+            "origin_batch": "2026-10",
+            "revision": 0,
+            "signature": null,
+            "topic_uid": "T0002"
+          },
+          {
+            "history": [],
+            "label": "says / qantas / workers",
+            "local_index": null,
+            "missing": 0,
+            "origin_batch": "2026-10",
+            "revision": 0,
+            "signature": null,
+            "topic_uid": "T0003"
+          },
+          {
+            "history": [],
+            "label": "says / new / said",
+            "local_index": null,
+            "missing": 0,
+            "origin_batch": "2026-10",
+            "revision": 0,
+            "signature": null,
+            "topic_uid": "T0004"
+          },
+          {
+            "history": [],
+            "label": "said / laden / bin",
+            "local_index": null,
+            "missing": 0,
+            "origin_batch": "2026-10",
+            "revision": 0,
+            "signature": null,
+            "topic_uid": "T0005"
+          }
+        ],
+        "disappearances": [],
+        "document_remap": {},
+        "matches": [],
+        "merges": [],
+        "retirements": [],
+        "revivals": [],
+        "splits": [],
+        "summary": {
+          "absorbed": 0,
+          "batch_id": "2026-10",
+          "born": 5,
+          "diagnostics": {
+            "candidate_pairs": 0,
+            "conflicts": {
+              "merge_candidates": 0,
+              "split_candidates": 0
+            },
+            "current_topics": 5,
+            "drift_threshold": 0.45,
+            "max_topics": null,
+            "min_shared_terms": 5,
+            "previous_batch": null,
+            "previous_topics": 0,
+            "revivals": 0,
+            "similarity_threshold": 0.3,
+            "topn": 50
+          },
+          "disappeared": 0,
+          "drift_comparable": 0,
+          "drift_not_comparable": 0,
+          "drift_threshold_exceeded": 0,
+          "matched": 0,
+          "max_drift": null,
+          "mean_drift": null,
+          "merged": 0,
+          "num_topics": 5,
+          "previous_batch_id": null,
+          "retired": 0,
+          "revived": 0,
+          "split": 0
+        },
+        "topics": [
+          {
+            "drift": null,
+            "drift_status": "new",
+            "label": "says / australian / said",
+            "local_index": 0,
+            "previous_local_index": null,
+            "revived": false,
+            "similarity": null,
+            "split_from": null,
+            "top_words": [
+              "says",
+              "australian",
+              "said",
+              "pakistan",
+              "government",
+              "afghanistan",
+              "force",
+              "new",
+              "minister",
+              "hicks"
+            ],
+            "topic_uid": "T0001"
+          },
+          {
+            "drift": null,
+            "drift_status": "new",
+            "label": "palestinian / said / arafat",
+            "local_index": 1,
+            "previous_local_index": null,
+            "revived": false,
+            "similarity": null,
+            "split_from": null,
+            "top_words": [
+              "palestinian",
+              "said",
+              "arafat",
+              "israeli",
+              "gaza",
+              "suicide",
+              "israel",
+              "security",
+              "killed",
+              "west"
+            ],
+            "topic_uid": "T0002"
+          },
+          {
+            "drift": null,
+            "drift_status": "new",
+            "label": "says / qantas / workers",
+            "local_index": 2,
+            "previous_local_index": null,
+            "revived": false,
+            "similarity": null,
+            "split_from": null,
+            "top_words": [
+              "says",
+              "qantas",
+              "workers",
+              "company",
+              "maintenance",
+              "industrial",
+              "action",
+              "airline",
+              "unions",
+              "union"
+            ],
+            "topic_uid": "T0003"
+          },
+          {
+            "drift": null,
+            "drift_status": "new",
+            "label": "says / new / said",
+            "local_index": 3,
+            "previous_local_index": null,
+            "revived": false,
+            "similarity": null,
+            "split_from": null,
+            "top_words": [
+              "says",
+              "new",
+              "said",
+              "south",
+              "government",
+              "york",
+              "australian",
+              "people",
+              "sydney",
+              "firefighters"
+            ],
+            "topic_uid": "T0004"
+          },
+          {
+            "drift": null,
+            "drift_status": "new",
+            "label": "said / laden / bin",
+            "local_index": 4,
+            "previous_local_index": null,
+            "revived": false,
+            "similarity": null,
+            "split_from": null,
+            "top_words": [
+              "said",
+              "laden",
+              "bin",
+              "says",
+              "afghanistan",
+              "qaeda",
+              "united",
+              "states",
+              "osama",
+              "taliban"
+            ],
+            "topic_uid": "T0005"
+          }
+        ]
+      }
+    },
+    {
+      "assigned_at": 1795414081.78395,
+      "batch_id": "2026-11",
+      "config": {
+        "drift_threshold": 0.45,
+        "enabled": true,
+        "ledger_path": "reports/topic-ledger.json",
+        "max_topics": null,
+        "min_shared_terms": 5,
+        "require_previous": false,
+        "retired_grace": 0,
+        "similarity_threshold": 0.3,
+        "topn": 50
+      },
+      "identities": {
+        "T0001": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            },
+            {
+              "batch_id": "2026-11",
+              "drift": 0.065952,
+              "drift_status": "ok",
+              "local_index": 0,
+              "similarity": 0.550166,
+              "status": "matched"
+            }
+          ],
+          "label": "says / australian / said",
+          "local_index": 0,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 1,
+          "signature": {
+            "batch_id": "2026-11",
+            "local_index": 0,
+            "words": [
+              [
+                "said",
+                0.06237722
+              ],
+              [
+                "says",
+                0.05481758
+              ],
+              [
+                "people",
+                0.0406135
+              ],
+              [
+                "government",
+                0.03919068
+              ],
+              [
+                "today",
+                0.03486396
+              ],
+              [
+                "south",
+                0.03180041
+              ],
+              [
+                "minister",
+                0.03050629
+              ],
+              [
+                "afghanistan",
+                0.02871407
+              ],
+              [
+                "asylum",
+                0.02665089
+              ],
+              [
+                "new",
+                0.02663522
+              ],
+              [
+                "australia",
+                0.02569527
+              ],
+              [
+                "afghan",
+                0.02536535
+              ],
+              [
+                "groups",
+                0.02375212
+              ],
+              [
+                "interim",
+                0.02294275
+              ],
+              [
+                "sydney",
+                0.02085828
+              ],
+              [
+                "seekers",
+                0.02085419
+              ],
+              [
+                "indian",
+                0.02079512
+              ],
+              [
+                "taliban",
+                0.01835538
+              ],
+              [
+                "alliance",
+                0.0179642
+              ],
+              [
+                "nauru",
+                0.01787346
+              ],
+              [
+                "attack",
+                0.01685472
+              ],
+              [
+                "power",
+                0.01506676
+              ],
+              [
+                "north",
+                0.01506638
+              ],
+              [
+                "group",
+                0.01506628
+              ],
+              [
+                "northern",
+                0.0150661
+              ],
+              [
+                "firefighters",
+                0.01506549
+              ],
+              [
+                "detainees",
+                0.01506397
+              ],
+              [
+                "ses",
+                0.01506348
+              ],
+              [
+                "kashmir",
+                0.01506329
+              ],
+              [
+                "ruddock",
+                0.01506063
+              ],
+              [
+                "wales",
+                0.01505532
+              ],
+              [
+                "hill",
+                0.01501476
+              ],
+              [
+                "royal",
+                0.0146794
+              ],
+              [
+                "claims",
+                0.01462668
+              ],
+              [
+                "day",
+                0.01388764
+              ],
+              [
+                "days",
+                0.01287738
+              ],
+              [
+                "yesterday",
+                0.01263836
+              ],
+              [
+                "morning",
+                0.01217148
+              ],
+              [
+                "work",
+                0.01216827
+              ],
+              [
+                "area",
+                0.0121679
+              ],
+              [
+                "bonn",
+                0.01216787
+              ],
+              [
+                "forces",
+                0.01216738
+              ],
+              [
+                "kandahar",
+                0.01216731
+              ],
+              [
+                "island",
+                0.01216716
+              ],
+              [
+                "west",
+                0.0121671
+              ],
+              [
+                "fires",
+                0.01216655
+              ],
+              [
+                "warning",
+                0.01216647
+              ],
+              [
+                "immigration",
+                0.01216306
+              ],
+              [
+                "process",
+                0.0121623
+              ],
+              [
+                "areas",
+                0.0121546
+              ]
+            ]
+          },
+          "topic_uid": "T0001"
+        },
+        "T0002": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            },
+            {
+              "batch_id": "2026-11",
+              "drift": 0.08472,
+              "drift_status": "ok",
+              "local_index": 2,
+              "similarity": 0.848427,
+              "status": "matched"
+            }
+          ],
+          "label": "palestinian / said / arafat",
+          "local_index": 2,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 1,
+          "signature": {
+            "batch_id": "2026-11",
+            "local_index": 2,
+            "words": [
+              [
+                "palestinian",
+                0.08821402
+              ],
+              [
+                "israeli",
+                0.06920757
+              ],
+              [
+                "arafat",
+                0.06682461
+              ],
+              [
+                "said",
+                0.05618677
+              ],
+              [
+                "israel",
+                0.03827723
+              ],
+              [
+                "hamas",
+                0.03470071
+              ],
+              [
+                "attacks",
+                0.02937841
+              ],
+              [
+                "leader",
+                0.0278036
+              ],
+              [
+                "suicide",
+                0.02401038
+              ],
+              [
+                "sharon",
+                0.022833
+              ],
+              [
+                "minister",
+                0.0219005
+              ],
+              [
+                "says",
+                0.02063562
+              ],
+              [
+                "zinni",
+                0.02044752
+              ],
+              [
+                "peace",
+                0.02044161
+              ],
+              [
+                "yasser",
+                0.01925639
+              ],
+              [
+                "islamic",
+                0.01909843
+              ],
+              [
+                "gaza",
+                0.01807244
+              ],
+              [
+                "security",
+                0.01780203
+              ],
+              [
+                "west",
+                0.01688767
+              ],
+              [
+                "bank",
+                0.01688755
+              ],
+              [
+                "official",
+                0.01687985
+              ],
+              [
+                "government",
+                0.01687794
+              ],
+              [
+                "prime",
+                0.01569746
+              ],
+              [
+                "militants",
+                0.01546856
+              ],
+              [
+                "end",
+                0.01443385
+              ],
+              [
+                "violence",
+                0.01332032
+              ],
+              [
+                "meeting",
+                0.01331791
+              ],
+              [
+                "israelis",
+                0.01331766
+              ],
+              [
+                "palestinians",
+                0.01212907
+              ],
+              [
+                "envoy",
+                0.01212845
+              ],
+              [
+                "operations",
+                0.01183168
+              ],
+              [
+                "united",
+                0.0116648
+              ],
+              [
+                "military",
+                0.01165536
+              ],
+              [
+                "killed",
+                0.01132505
+              ],
+              [
+                "authority",
+                0.0109393
+              ],
+              [
+                "strip",
+                0.01093759
+              ],
+              [
+                "bombings",
+                0.01093587
+              ],
+              [
+                "senior",
+                0.01092531
+              ],
+              [
+                "war",
+                0.01091946
+              ],
+              [
+                "states",
+                0.0107269
+              ],
+              [
+                "told",
+                0.00993804
+              ],
+              [
+                "ariel",
+                0.00975079
+              ],
+              [
+                "targets",
+                0.00973914
+              ],
+              [
+                "force",
+                0.00972888
+              ],
+              [
+                "jihad",
+                0.00967971
+              ],
+              [
+                "attack",
+                0.00962396
+              ],
+              [
+                "accused",
+                0.0096139
+              ],
+              [
+                "pressure",
+                0.00954762
+              ],
+              [
+                "return",
+                0.0094252
+              ],
+              [
+                "forces",
+                0.00865429
+              ]
+            ]
+          },
+          "topic_uid": "T0002"
+        },
+        "T0003": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            },
+            {
+              "batch_id": "2026-11",
+              "drift": 0.094574,
+              "drift_status": "ok",
+              "local_index": 1,
+              "similarity": 0.769558,
+              "status": "matched"
+            }
+          ],
+          "label": "says / qantas / workers",
+          "local_index": 1,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 1,
+          "signature": {
+            "batch_id": "2026-11",
+            "local_index": 1,
+            "words": [
+              [
+                "workers",
+                0.06583049
+              ],
+              [
+                "qantas",
+                0.06385345
+              ],
+              [
+                "union",
+                0.04605773
+              ],
+              [
+                "says",
+                0.04204426
+              ],
+              [
+                "said",
+                0.04181577
+              ],
+              [
+                "unions",
+                0.03819946
+              ],
+              [
+                "government",
+                0.03605458
+              ],
+              [
+                "industrial",
+                0.03598104
+              ],
+              [
+                "staff",
+                0.02585049
+              ],
+              [
+                "action",
+                0.02584937
+              ],
+              [
+                "dispute",
+                0.02584501
+              ],
+              [
+                "maintenance",
+                0.02331243
+              ],
+              [
+                "commission",
+                0.02206417
+              ],
+              [
+                "industry",
+                0.0212057
+              ],
+              [
+                "minister",
+                0.02079323
+              ],
+              [
+                "company",
+                0.02077779
+              ],
+              [
+                "pay",
+                0.02077721
+              ],
+              [
+                "cent",
+                0.01824712
+              ],
+              [
+                "relations",
+                0.01824316
+              ],
+              [
+                "new",
+                0.01678451
+              ],
+              [
+                "members",
+                0.01675038
+              ],
+              [
+                "national",
+                0.01571672
+              ],
+              [
+                "freeze",
+                0.01571068
+              ],
+              [
+                "today",
+                0.0156794
+              ],
+              [
+                "secretary",
+                0.01445955
+              ],
+              [
+                "offer",
+                0.01317934
+              ],
+              [
+                "pakistan",
+                0.01317861
+              ],
+              [
+                "indian",
+                0.01317755
+              ],
+              [
+                "year",
+                0.01317708
+              ],
+              [
+                "wage",
+                0.01317458
+              ],
+              [
+                "time",
+                0.01314061
+              ],
+              [
+                "christmas",
+                0.01302833
+              ],
+              [
+                "community",
+                0.01284179
+              ],
+              [
+                "australian",
+                0.01266176
+              ],
+              [
+                "talks",
+                0.01264503
+              ],
+              [
+                "work",
+                0.01206842
+              ],
+              [
+                "general",
+                0.01146893
+              ],
+              [
+                "bid",
+                0.01064588
+              ],
+              [
+                "come",
+                0.01064487
+              ],
+              [
+                "delhi",
+                0.01064387
+              ],
+              [
+                "running",
+                0.0106423
+              ],
+              [
+                "agreement",
+                0.01064222
+              ],
+              [
+                "bank",
+                0.01064217
+              ],
+              [
+                "cameron",
+                0.01064208
+              ],
+              [
+                "manufacturing",
+                0.01064203
+              ],
+              [
+                "table",
+                0.01064201
+              ],
+              [
+                "doug",
+                0.01064201
+              ],
+              [
+                "bargaining",
+                0.01064199
+              ],
+              [
+                "right",
+                0.01064179
+              ],
+              [
+                "prime",
+                0.01064106
+              ]
+            ]
+          },
+          "topic_uid": "T0003"
+        },
+        "T0004": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            },
+            {
+              "batch_id": "2026-11",
+              "drift": 0.077491,
+              "drift_status": "ok",
+              "local_index": 4,
+              "similarity": 0.677566,
+              "status": "matched"
+            }
+          ],
+          "label": "says / new / said",
+          "local_index": 4,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 1,
+          "signature": {
+            "batch_id": "2026-11",
+            "local_index": 4,
+            "words": [
+              [
+                "says",
+                0.09755642
+              ],
+              [
+                "new",
+                0.04358512
+              ],
+              [
+                "said",
+                0.03883763
+              ],
+              [
+                "government",
+                0.03608699
+              ],
+              [
+                "south",
+                0.0360639
+              ],
+              [
+                "australia",
+                0.03519615
+              ],
+              [
+                "india",
+                0.0292138
+              ],
+              [
+                "police",
+                0.02839696
+              ],
+              [
+                "fires",
+                0.02442373
+              ],
+              [
+                "sydney",
+                0.02441397
+              ],
+              [
+                "night",
+                0.02391262
+              ],
+              [
+                "minister",
+                0.02372088
+              ],
+              [
+                "areas",
+                0.02203185
+              ],
+              [
+                "north",
+                0.02203179
+              ],
+              [
+                "people",
+                0.02202764
+              ],
+              [
+                "state",
+                0.01990289
+              ],
+              [
+                "yesterday",
+                0.01953863
+              ],
+              [
+                "today",
+                0.01765913
+              ],
+              [
+                "high",
+                0.01724152
+              ],
+              [
+                "jobs",
+                0.01724058
+              ],
+              [
+                "wales",
+                0.01722587
+              ],
+              [
+                "month",
+                0.01680097
+              ],
+              [
+                "year",
+                0.01590715
+              ],
+              [
+                "federal",
+                0.01539327
+              ],
+              [
+                "given",
+                0.01484869
+              ],
+              [
+                "service",
+                0.01484804
+              ],
+              [
+                "burning",
+                0.01484686
+              ],
+              [
+                "weather",
+                0.01484668
+              ],
+              [
+                "storm",
+                0.01484604
+              ],
+              [
+                "overnight",
+                0.01484604
+              ],
+              [
+                "detainees",
+                0.01484538
+              ],
+              [
+                "britain",
+                0.01484452
+              ],
+              [
+                "old",
+                0.01333901
+              ],
+              [
+                "work",
+                0.01284641
+              ],
+              [
+                "islands",
+                0.0124524
+              ],
+              [
+                "large",
+                0.01245227
+              ],
+              [
+                "firefighters",
+                0.01245162
+              ],
+              [
+                "rural",
+                0.01245112
+              ],
+              [
+                "centre",
+                0.01245103
+              ],
+              [
+                "winds",
+                0.0124509
+              ],
+              [
+                "west",
+                0.0124507
+              ],
+              [
+                "lines",
+                0.01245066
+              ],
+              [
+                "containment",
+                0.01245063
+              ],
+              [
+                "time",
+                0.01234829
+              ],
+              [
+                "arrested",
+                0.01199741
+              ],
+              [
+                "emergency",
+                0.01196561
+              ],
+              [
+                "morning",
+                0.01127357
+              ],
+              [
+                "workers",
+                0.01048855
+              ],
+              [
+                "september",
+                0.01025099
+              ],
+              [
+                "president",
+                0.01024711
+              ]
+            ]
+          },
+          "topic_uid": "T0004"
+        },
+        "T0005": {
+          "history": [
+            {
+              "batch_id": "2026-10",
+              "status": "born"
+            },
+            {
+              "batch_id": "2026-11",
+              "drift": 0.084464,
+              "drift_status": "ok",
+              "local_index": 3,
+              "similarity": 0.798743,
+              "status": "matched"
+            }
+          ],
+          "label": "said / laden / bin",
+          "local_index": 3,
+          "missing": 0,
+          "origin_batch": "2026-10",
+          "revision": 1,
+          "signature": {
+            "batch_id": "2026-11",
+            "local_index": 3,
+            "words": [
+              [
+                "said",
+                0.06626421
+              ],
+              [
+                "afghanistan",
+                0.05778928
+              ],
+              [
+                "laden",
+                0.04183381
+              ],
+              [
+                "bin",
+                0.04182793
+              ],
+              [
+                "qaeda",
+                0.03656317
+              ],
+              [
+                "says",
+                0.03448105
+              ],
+              [
+                "taliban",
+                0.03378504
+              ],
+              [
+                "australian",
+                0.02963772
+              ],
+              [
+                "man",
+                0.02770307
+              ],
+              [
+                "hicks",
+                0.02355664
+              ],
+              [
+                "forces",
+                0.02128487
+              ],
+              [
+                "tora",
+                0.02124776
+              ],
+              [
+                "bora",
+                0.02124604
+              ],
+              [
+                "afghan",
+                0.02025291
+              ],
+              [
+                "osama",
+                0.02015925
+              ],
+              [
+                "fighting",
+                0.01918525
+              ],
+              [
+                "local",
+                0.01894565
+              ],
+              [
+                "united",
+                0.01819361
+              ],
+              [
+                "pakistan",
+                0.01778219
+              ],
+              [
+                "people",
+                0.01763286
+              ],
+              [
+                "airport",
+                0.01724681
+              ],
+              [
+                "told",
+                0.01695256
+              ],
+              [
+                "government",
+                0.01678701
+              ],
+              [
+                "left",
+                0.01666887
+              ],
+              [
+                "network",
+                0.01659537
+              ],
+              [
+                "force",
+                0.01598562
+              ],
+              [
+                "military",
+                0.01568571
+              ],
+              [
+                "near",
+                0.01514517
+              ],
+              [
+                "area",
+                0.01514432
+              ],
+              [
+                "fighters",
+                0.01514123
+              ],
+              [
+                "mountains",
+                0.0151386
+              ],
+              [
+                "killed",
+                0.01446445
+              ],
+              [
+                "interim",
+                0.01362774
+              ],
+              [
+                "region",
+                0.01353719
+              ],
+              [
+                "defence",
+                0.01338104
+              ],
+              [
+                "reports",
+                0.01304835
+              ],
+              [
+                "opposition",
+                0.01304081
+              ],
+              [
+                "kandahar",
+                0.01303921
+              ],
+              [
+                "terrorist",
+                0.01299904
+              ],
+              [
+                "caves",
+                0.01269586
+              ],
+              [
+                "training",
+                0.01260549
+              ],
+              [
+                "australia",
+                0.01226631
+              ],
+              [
+                "days",
+                0.01196642
+              ],
+              [
+                "old",
+                0.0114344
+              ],
+              [
+                "year",
+                0.01129112
+              ],
+              [
+                "states",
+                0.01098753
+              ],
+              [
+                "federal",
+                0.0109383
+              ],
+              [
+                "family",
+                0.01093793
+              ],
+              [
+                "david",
+                0.01093787
+              ],
+              [
+                "know",
+                0.01093733
+              ]
+            ]
+          },
+          "topic_uid": "T0005"
+        }
+      },
+      "num_topics": 5,
+      "previous_batch_id": "2026-10",
+      "result": {
+        "absorptions": [],
+        "births": [],
+        "disappearances": [],
+        "document_remap": {
+          "0": 0,
+          "1": 2,
+          "2": 1,
+          "3": 4,
+          "4": 3
+        },
+        "matches": [
+          {
+            "drift": 0.065952,
+            "drift_status": "ok",
+            "evidence": {
+              "coverage_current": 0.466767,
+              "coverage_previous": 0.438232,
+              "n_shared_terms": 18
+            },
+            "label": "says / australian / said",
+            "new_local_index": 0,
+            "previous_local_index": 0,
+            "shared_terms": 18,
+            "similarity": 0.550166,
+            "topic_uid": "T0001"
+          },
+          {
+            "drift": 0.094574,
+            "drift_status": "ok",
+            "evidence": {
+              "coverage_current": 0.676068,
+              "coverage_previous": 0.651223,
+              "n_shared_terms": 25
+            },
+            "label": "says / qantas / workers",
+            "new_local_index": 1,
+            "previous_local_index": 2,
+            "shared_terms": 25,
+            "similarity": 0.769558,
+            "topic_uid": "T0003"
+          },
+          {
+            "drift": 0.08472,
+            "drift_status": "ok",
+            "evidence": {
+              "coverage_current": 0.719764,
+              "coverage_previous": 0.702469,
+              "n_shared_terms": 27
+            },
+            "label": "palestinian / said / arafat",
+            "new_local_index": 2,
+            "previous_local_index": 1,
+            "shared_terms": 27,
+            "similarity": 0.848427,
+            "topic_uid": "T0002"
+          },
+          {
+            "drift": 0.084464,
+            "drift_status": "ok",
+            "evidence": {
+              "coverage_current": 0.651342,
+              "coverage_previous": 0.731915,
+              "n_shared_terms": 27
+            },
+            "label": "said / laden / bin",
+            "new_local_index": 3,
+            "previous_local_index": 4,
+            "shared_terms": 27,
+            "similarity": 0.798743,
+            "topic_uid": "T0005"
+          },
+          {
+            "drift": 0.077491,
+            "drift_status": "ok",
+            "evidence": {
+              "coverage_current": 0.507087,
+              "coverage_previous": 0.532478,
+              "n_shared_terms": 20
+            },
+            "label": "says / new / said",
+            "new_local_index": 4,
+            "previous_local_index": 3,
+            "shared_terms": 20,
+            "similarity": 0.677566,
+            "topic_uid": "T0004"
+          }
+        ],
+        "merges": [],
+        "retirements": [],
+        "revivals": [],
+        "splits": [],
+        "summary": {
+          "absorbed": 0,
+          "batch_id": "2026-11",
+          "born": 0,
+          "diagnostics": {
+            "candidate_pairs": 14,
+            "conflicts": {
+              "merge_candidates": 0,
+              "split_candidates": 0
+            },
+            "current_topics": 5,
+            "drift_threshold": 0.45,
+            "max_topics": null,
+            "min_shared_terms": 5,
+            "previous_batch": "2026-10",
+            "previous_topics": 5,
+            "revivals": 0,
+            "similarity_threshold": 0.3,
+            "topn": 50
+          },
+          "disappeared": 0,
+          "drift_comparable": 5,
+          "drift_not_comparable": 0,
+          "drift_threshold_exceeded": 0,
+          "matched": 5,
+          "max_drift": 0.0945741529384203,
+          "mean_drift": 0.08144004152010516,
+          "merged": 0,
+          "num_topics": 5,
+          "previous_batch_id": "2026-10",
+          "retired": 0,
+          "revived": 0,
+          "split": 0
+        },
+        "topics": [
+          {
+            "drift": 0.065952,
+            "drift_status": "ok",
+            "label": "says / australian / said",
+            "local_index": 0,
+            "previous_local_index": 0,
+            "revived": false,
+            "similarity": 0.550166,
+            "split_from": null,
+            "top_words": [
+              "said",
+              "says",
+              "people",
+              "government",
+              "today",
+              "south",
+              "minister",
+              "afghanistan",
+              "asylum",
+              "new"
+            ],
+            "topic_uid": "T0001"
+          },
+          {
+            "drift": 0.094574,
+            "drift_status": "ok",
+            "label": "says / qantas / workers",
+            "local_index": 1,
+            "previous_local_index": 2,
+            "revived": false,
+            "similarity": 0.769558,
+            "split_from": null,
+            "top_words": [
+              "workers",
+              "qantas",
+              "union",
+              "says",
+              "said",
+              "unions",
+              "government",
+              "industrial",
+              "staff",
+              "action"
+            ],
+            "topic_uid": "T0003"
+          },
+          {
+            "drift": 0.08472,
+            "drift_status": "ok",
+            "label": "palestinian / said / arafat",
+            "local_index": 2,
+            "previous_local_index": 1,
+            "revived": false,
+            "similarity": 0.848427,
+            "split_from": null,
+            "top_words": [
+              "palestinian",
+              "israeli",
+              "arafat",
+              "said",
+              "israel",
+              "hamas",
+              "attacks",
+              "leader",
+              "suicide",
+              "sharon"
+            ],
+            "topic_uid": "T0002"
+          },
+          {
+            "drift": 0.084464,
+            "drift_status": "ok",
+            "label": "said / laden / bin",
+            "local_index": 3,
+            "previous_local_index": 4,
+            "revived": false,
+            "similarity": 0.798743,
+            "split_from": null,
+            "top_words": [
+              "said",
+              "afghanistan",
+              "laden",
+              "bin",
+              "qaeda",
+              "says",
+              "taliban",
+              "australian",
+              "man",
+              "hicks"
+            ],
+            "topic_uid": "T0005"
+          },
+          {
+            "drift": 0.077491,
+            "drift_status": "ok",
+            "label": "says / new / said",
+            "local_index": 4,
+            "previous_local_index": 3,
+            "revived": false,
+            "similarity": 0.677566,
+            "split_from": null,
+            "top_words": [
+              "says",
+              "new",
+              "said",
+              "government",
+              "south",
+              "australia",
+              "india",
+              "police",
+              "fires",
+              "sydney"
+            ],
+            "topic_uid": "T0004"
+          }
+        ]
+      }
+    }
+  ],
+  "fingerprint": "5a4fec7e6f55e7df87a5b75572037f26cfea4ab0b4b3a49bc2fd7bcddc60cd48",
+  "format": "gensim-topic-ledger",
+  "next_uid": 6,
+  "version": 1
+}

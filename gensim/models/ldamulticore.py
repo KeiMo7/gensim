@@ -110,7 +110,8 @@ class LdaMulticore(LdaModel):
                  chunksize=2000, passes=1, batch=False, alpha='symmetric',
                  eta=None, decay=0.5, offset=1.0, eval_every=10, iterations=50,
                  gamma_threshold=0.001, random_state=None, minimum_probability=0.01,
-                 minimum_phi_value=0.01, per_word_topics=False, dtype=np.float32):
+                 minimum_phi_value=0.01, per_word_topics=False, dtype=np.float32,
+                 topic_alignment=None, topic_alignment_batch_id=None):
         """
 
         Parameters
@@ -189,6 +190,7 @@ class LdaMulticore(LdaModel):
             decay=decay, offset=offset, eval_every=eval_every, iterations=iterations,
             gamma_threshold=gamma_threshold, random_state=random_state, minimum_probability=minimum_probability,
             minimum_phi_value=minimum_phi_value, per_word_topics=per_word_topics, dtype=dtype,
+            topic_alignment=topic_alignment, topic_alignment_batch_id=topic_alignment_batch_id,
         )
 
     def update(self, corpus, chunks_as_numpy=False):
@@ -320,6 +322,11 @@ class LdaMulticore(LdaModel):
         # endfor entire update
 
         pool.terminate()
+
+        # Cross-batch stable numbering is opt-in; it runs once per update, after the
+        # topics are final, and never changes the model's topic output.
+        if getattr(self, "topic_alignment", None) is not None and self.topic_alignment.enabled:
+            self.align_topics()
 
 
 def worker_e_step(input_queue, result_queue, worker_lda):

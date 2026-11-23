@@ -28,6 +28,7 @@ Modules:
     corpora/wikicorpus
     models/ldamodel
     models/ldamulticore
+    models/topic_alignment
     models/ensemblelda
     models/nmf
     models/lsimodel

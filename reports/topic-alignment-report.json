@@ -1,0 +1,843 @@
+{
+  "batch_2026_10": {
+    "absorptions": [],
+    "births": [
+      {
+        "history": [],
+        "label": "says / australian / said",
+        "local_index": null,
+        "missing": 0,
+        "origin_batch": "2026-10",
+        "revision": 0,
+        "signature": null,
+        "topic_uid": "T0001"
+      },
+      {
+        "history": [],
+        "label": "palestinian / said / arafat",
+        "local_index": null,
+        "missing": 0,
+        "origin_batch": "2026-10",
+        "revision": 0,
+        "signature": null,
+        "topic_uid": "T0002"
+      },
+      {
+        "history": [],
+        "label": "says / qantas / workers",
+        "local_index": null,
+        "missing": 0,
+        "origin_batch": "2026-10",
+        "revision": 0,
+        "signature": null,
+        "topic_uid": "T0003"
+      },
+      {
+        "history": [],
+        "label": "says / new / said",
+        "local_index": null,
+        "missing": 0,
+        "origin_batch": "2026-10",
+        "revision": 0,
+        "signature": null,
+        "topic_uid": "T0004"
+      },
+      {
+        "history": [],
+        "label": "said / laden / bin",
+        "local_index": null,
+        "missing": 0,
+        "origin_batch": "2026-10",
+        "revision": 0,
+        "signature": null,
+        "topic_uid": "T0005"
+      }
+    ],
+    "disappearances": [],
+    "document_remap": {},
+    "matches": [],
+    "merges": [],
+    "retirements": [],
+    "revivals": [],
+    "splits": [],
+    "summary": {
+      "absorbed": 0,
+      "batch_id": "2026-10",
+      "born": 5,
+      "diagnostics": {
+        "candidate_pairs": 0,
+        "conflicts": {
+          "merge_candidates": 0,
+          "split_candidates": 0
+        },
+        "current_topics": 5,
+        "drift_threshold": 0.45,
+        "max_topics": null,
+        "min_shared_terms": 5,
+        "previous_batch": null,
+        "previous_topics": 0,
+        "revivals": 0,
+        "similarity_threshold": 0.3,
+        "topn": 50
+      },
+      "disappeared": 0,
+      "drift_comparable": 0,
+      "drift_not_comparable": 0,
+      "drift_threshold_exceeded": 0,
+      "matched": 0,
+      "max_drift": null,
+      "mean_drift": null,
+      "merged": 0,
+      "num_topics": 5,
+      "previous_batch_id": null,
+      "retired": 0,
+      "revived": 0,
+      "split": 0
+    },
+    "topics": [
+      {
+        "drift": null,
+        "drift_status": "new",
+        "label": "says / australian / said",
+        "local_index": 0,
+        "previous_local_index": null,
+        "revived": false,
+        "similarity": null,
+        "split_from": null,
+        "top_words": [
+          "says",
+          "australian",
+          "said",
+          "pakistan",
+          "government",
+          "afghanistan",
+          "force",
+          "new",
+          "minister",
+          "hicks"
+        ],
+        "topic_uid": "T0001"
+      },
+      {
+        "drift": null,
+        "drift_status": "new",
+        "label": "palestinian / said / arafat",
+        "local_index": 1,
+        "previous_local_index": null,
+        "revived": false,
+        "similarity": null,
+        "split_from": null,
+        "top_words": [
+          "palestinian",
+          "said",
+          "arafat",
+          "israeli",
+          "gaza",
+          "suicide",
+          "israel",
+          "security",
+          "killed",
+          "west"
+        ],
+        "topic_uid": "T0002"
+      },
+      {
+        "drift": null,
+        "drift_status": "new",
+        "label": "says / qantas / workers",
+        "local_index": 2,
+        "previous_local_index": null,
+        "revived": false,
+        "similarity": null,
+        "split_from": null,
+        "top_words": [
+          "says",
+          "qantas",
+          "workers",
+          "company",
+          "maintenance",
+          "industrial",
+          "action",
+          "airline",
+          "unions",
+          "union"
+        ],
+        "topic_uid": "T0003"
+      },
+      {
+        "drift": null,
+        "drift_status": "new",
+        "label": "says / new / said",
+        "local_index": 3,
+        "previous_local_index": null,
+        "revived": false,
+        "similarity": null,
+        "split_from": null,
+        "top_words": [
+          "says",
+          "new",
+          "said",
+          "south",
+          "government",
+          "york",
+          "australian",
+          "people",
+          "sydney",
+          "firefighters"
+        ],
+        "topic_uid": "T0004"
+      },
+      {
+        "drift": null,
+        "drift_status": "new",
+        "label": "said / laden / bin",
+        "local_index": 4,
+        "previous_local_index": null,
+        "revived": false,
+        "similarity": null,
+        "split_from": null,
+        "top_words": [
+          "said",
+          "laden",
+          "bin",
+          "says",
+          "afghanistan",
+          "qaeda",
+          "united",
+          "states",
+          "osama",
+          "taliban"
+        ],
+        "topic_uid": "T0005"
+      }
+    ]
+  },
+  "batch_2026_11": {
+    "absorptions": [],
+    "births": [],
+    "disappearances": [],
+    "document_remap": {
+      "0": 0,
+      "1": 2,
+      "2": 1,
+      "3": 4,
+      "4": 3
+    },
+    "matches": [
+      {
+        "drift": 0.065952,
+        "drift_status": "ok",
+        "evidence": {
+          "coverage_current": 0.466767,
+          "coverage_previous": 0.438232,
+          "n_shared_terms": 18
+        },
+        "label": "says / australian / said",
+        "new_local_index": 0,
+        "previous_local_index": 0,
+        "shared_terms": 18,
+        "similarity": 0.550166,
+        "topic_uid": "T0001"
+      },
+      {
+        "drift": 0.094574,
+        "drift_status": "ok",
+        "evidence": {
+          "coverage_current": 0.676068,
+          "coverage_previous": 0.651223,
+          "n_shared_terms": 25
+        },
+        "label": "says / qantas / workers",
+        "new_local_index": 1,
+        "previous_local_index": 2,
+        "shared_terms": 25,
+        "similarity": 0.769558,
+        "topic_uid": "T0003"
+      },
+      {
+        "drift": 0.08472,
+        "drift_status": "ok",
+        "evidence": {
+          "coverage_current": 0.719764,
+          "coverage_previous": 0.702469,
+          "n_shared_terms": 27
+        },
+        "label": "palestinian / said / arafat",
+        "new_local_index": 2,
+        "previous_local_index": 1,
+        "shared_terms": 27,
+        "similarity": 0.848427,
+        "topic_uid": "T0002"
+      },
+      {
+        "drift": 0.084464,
+        "drift_status": "ok",
+        "evidence": {
+          "coverage_current": 0.651342,
+          "coverage_previous": 0.731915,
+          "n_shared_terms": 27
+        },
+        "label": "said / laden / bin",
+        "new_local_index": 3,
+        "previous_local_index": 4,
+        "shared_terms": 27,
+        "similarity": 0.798743,
+        "topic_uid": "T0005"
+      },
+      {
+        "drift": 0.077491,
+        "drift_status": "ok",
+        "evidence": {
+          "coverage_current": 0.507087,
+          "coverage_previous": 0.532478,
+          "n_shared_terms": 20
+        },
+        "label": "says / new / said",
+        "new_local_index": 4,
+        "previous_local_index": 3,
+        "shared_terms": 20,
+        "similarity": 0.677566,
+        "topic_uid": "T0004"
+      }
+    ],
+    "merges": [],
+    "retirements": [],
+    "revivals": [],
+    "splits": [],
+    "summary": {
+      "absorbed": 0,
+      "batch_id": "2026-11",
+      "born": 0,
+      "diagnostics": {
+        "candidate_pairs": 14,
+        "conflicts": {
+          "merge_candidates": 0,
+          "split_candidates": 0
+        },
+        "current_topics": 5,
+        "drift_threshold": 0.45,
+        "max_topics": null,
+        "min_shared_terms": 5,
+        "previous_batch": "2026-10",
+        "previous_topics": 5,
+        "revivals": 0,
+        "similarity_threshold": 0.3,
+        "topn": 50
+      },
+      "disappeared": 0,
+      "drift_comparable": 5,
+      "drift_not_comparable": 0,
+      "drift_threshold_exceeded": 0,
+      "matched": 5,
+      "max_drift": 0.0945741529384203,
+      "mean_drift": 0.08144004152010516,
+      "merged": 0,
+      "num_topics": 5,
+      "previous_batch_id": "2026-10",
+      "retired": 0,
+      "revived": 0,
+      "split": 0
+    },
+    "topics": [
+      {
+        "drift": 0.065952,
+        "drift_status": "ok",
+        "label": "says / australian / said",
+        "local_index": 0,
+        "previous_local_index": 0,
+        "revived": false,
+        "similarity": 0.550166,
+        "split_from": null,
+        "top_words": [
+          "said",
+          "says",
+          "people",
+          "government",
+          "today",
+          "south",
+          "minister",
+          "afghanistan",
+          "asylum",
+          "new"
+        ],
+        "topic_uid": "T0001"
+      },
+      {
+        "drift": 0.094574,
+        "drift_status": "ok",
+        "label": "says / qantas / workers",
+        "local_index": 1,
+        "previous_local_index": 2,
+        "revived": false,
+        "similarity": 0.769558,
+        "split_from": null,
+        "top_words": [
+          "workers",
+          "qantas",
+          "union",
+          "says",
+          "said",
+          "unions",
+          "government",
+          "industrial",
+          "staff",
+          "action"
+        ],
+        "topic_uid": "T0003"
+      },
+      {
+        "drift": 0.08472,
+        "drift_status": "ok",
+        "label": "palestinian / said / arafat",
+        "local_index": 2,
+        "previous_local_index": 1,
+        "revived": false,
+        "similarity": 0.848427,
+        "split_from": null,
+        "top_words": [
+          "palestinian",
+          "israeli",
+          "arafat",
+          "said",
+          "israel",
+          "hamas",
+          "attacks",
+          "leader",
+          "suicide",
+          "sharon"
+        ],
+        "topic_uid": "T0002"
+      },
+      {
+        "drift": 0.084464,
+        "drift_status": "ok",
+        "label": "said / laden / bin",
+        "local_index": 3,
+        "previous_local_index": 4,
+        "revived": false,
+        "similarity": 0.798743,
+        "split_from": null,
+        "top_words": [
+          "said",
+          "afghanistan",
+          "laden",
+          "bin",
+          "qaeda",
+          "says",
+          "taliban",
+          "australian",
+          "man",
+          "hicks"
+        ],
+        "topic_uid": "T0005"
+      },
+      {
+        "drift": 0.077491,
+        "drift_status": "ok",
+        "label": "says / new / said",
+        "local_index": 4,
+        "previous_local_index": 3,
+        "revived": false,
+        "similarity": 0.677566,
+        "split_from": null,
+        "top_words": [
+          "says",
+          "new",
+          "said",
+          "government",
+          "south",
+          "australia",
+          "india",
+          "police",
+          "fires",
+          "sydney"
+        ],
+        "topic_uid": "T0004"
+      }
+    ]
+  },
+  "config": {
+    "drift_threshold": 0.45,
+    "enabled": true,
+    "ledger_path": "reports/topic-ledger.json",
+    "max_topics": null,
+    "min_shared_terms": 5,
+    "require_previous": false,
+    "retired_grace": 0,
+    "similarity_threshold": 0.3,
+    "topn": 50
+  },
+  "corpus": {
+    "batch_a_documents": 67,
+    "batch_b_documents": 66,
+    "num_topics": 5,
+    "source": "gensim/test/test_data/lee_background.cor",
+    "vocabulary": 1873
+  },
+  "cross_process_read": {
+    "batches": [
+      "2026-10",
+      "2026-11"
+    ],
+    "last": [
+      [
+        "T0001",
+        0
+      ],
+      [
+        "T0002",
+        2
+      ],
+      [
+        "T0003",
+        1
+      ],
+      [
+        "T0004",
+        4
+      ],
+      [
+        "T0005",
+        3
+      ]
+    ],
+    "matches_in_process": true,
+    "verify": []
+  },
+  "document_remap_example": {
+    "conservation": {
+      "dropped_mass": 0.0,
+      "input_mass": 0.9999999796273187,
+      "output_mass": 0.9999999796273187,
+      "total_conserved": true
+    },
+    "original": [
+      [
+        0,
+        0.0016583080869168043
+      ],
+      [
+        1,
+        0.0016548368148505688
+      ],
+      [
+        2,
+        0.001646326738409698
+      ],
+      [
+        3,
+        0.9933880567550659
+      ],
+      [
+        4,
+        0.0016524512320756912
+      ]
+    ],
+    "remapped": [
+      [
+        0,
+        0.0016583080869168043
+      ],
+      [
+        1,
+        0.001646326738409698
+      ],
+      [
+        2,
+        0.0016548368148505688
+      ],
+      [
+        3,
+        0.0016524512320756912
+      ],
+      [
+        4,
+        0.9933880567550659
+      ]
+    ]
+  },
+  "generated_by": "reports/make_topic_alignment_report.py",
+  "identifier_mapping": [
+    {
+      "current_batch": "2026-11",
+      "current_local_index": 0,
+      "current_top_words": [
+        "said",
+        "says",
+        "people",
+        "government",
+        "today",
+        "south",
+        "minister",
+        "afghanistan"
+      ],
+      "drift": 0.066,
+      "drift_status": "ok",
+      "previous_batch": "2026-10",
+      "previous_local_index": 0,
+      "previous_top_words": [
+        "says",
+        "australian",
+        "said",
+        "pakistan",
+        "government",
+        "afghanistan",
+        "force",
+        "new"
+      ],
+      "similarity": 0.5502,
+      "topic_uid": "T0001"
+    },
+    {
+      "current_batch": "2026-11",
+      "current_local_index": 1,
+      "current_top_words": [
+        "workers",
+        "qantas",
+        "union",
+        "says",
+        "said",
+        "unions",
+        "government",
+        "industrial"
+      ],
+      "drift": 0.0946,
+      "drift_status": "ok",
+      "previous_batch": "2026-10",
+      "previous_local_index": 2,
+      "previous_top_words": [
+        "says",
+        "qantas",
+        "workers",
+        "company",
+        "maintenance",
+        "industrial",
+        "action",
+        "airline"
+      ],
+      "similarity": 0.7696,
+      "topic_uid": "T0003"
+    },
+    {
+      "current_batch": "2026-11",
+      "current_local_index": 2,
+      "current_top_words": [
+        "palestinian",
+        "israeli",
+        "arafat",
+        "said",
+        "israel",
+        "hamas",
+        "attacks",
+        "leader"
+      ],
+      "drift": 0.0847,
+      "drift_status": "ok",
+      "previous_batch": "2026-10",
+      "previous_local_index": 1,
+      "previous_top_words": [
+        "palestinian",
+        "said",
+        "arafat",
+        "israeli",
+        "gaza",
+        "suicide",
+        "israel",
+        "security"
+      ],
+      "similarity": 0.8484,
+      "topic_uid": "T0002"
+    },
+    {
+      "current_batch": "2026-11",
+      "current_local_index": 3,
+      "current_top_words": [
+        "said",
+        "afghanistan",
+        "laden",
+        "bin",
+        "qaeda",
+        "says",
+        "taliban",
+        "australian"
+      ],
+      "drift": 0.0845,
+      "drift_status": "ok",
+      "previous_batch": "2026-10",
+      "previous_local_index": 4,
+      "previous_top_words": [
+        "said",
+        "laden",
+        "bin",
+        "says",
+        "afghanistan",
+        "qaeda",
+        "united",
+        "states"
+      ],
+      "similarity": 0.7987,
+      "topic_uid": "T0005"
+    },
+    {
+      "current_batch": "2026-11",
+      "current_local_index": 4,
+      "current_top_words": [
+        "says",
+        "new",
+        "said",
+        "government",
+        "south",
+        "australia",
+        "india",
+        "police"
+      ],
+      "drift": 0.0775,
+      "drift_status": "ok",
+      "previous_batch": "2026-10",
+      "previous_local_index": 3,
+      "previous_top_words": [
+        "says",
+        "new",
+        "said",
+        "south",
+        "government",
+        "york",
+        "australian",
+        "people"
+      ],
+      "similarity": 0.6776,
+      "topic_uid": "T0004"
+    }
+  ],
+  "ledger": {
+    "batches": [
+      "2026-10",
+      "2026-11"
+    ],
+    "fingerprint": "5a4fec7e6f55e7df87a5b75572037f26cfea4ab0b4b3a49bc2fd7bcddc60cd48",
+    "path": "reports/topic-ledger.json",
+    "verify_problems": []
+  },
+  "synthetic_fate_cases": {
+    "disappearance": {
+      "current": {
+        "0": "T0001",
+        "1": "T0004"
+      },
+      "disappearances": [],
+      "previous": {
+        "0": "T0001",
+        "1": "T0003"
+      },
+      "remap_of_gone_topic": [
+        [
+          [
+            0,
+            0.7
+          ]
+        ],
+        {
+          "dropped_mass": 0.0,
+          "input_mass": 0.7,
+          "output_mass": 0.7,
+          "total_conserved": true
+        }
+      ],
+      "retirements": [
+        {
+          "destination": 0,
+          "label": "gamma / delta",
+          "previous_local_index": 1,
+          "reason": "no current topic met the similarity threshold (0.300); document mass folded into the most similar surviving topic",
+          "retired": true,
+          "topic_uid": "T0003"
+        }
+      ]
+    },
+    "max_topics": {
+      "absorptions": [
+        {
+          "absorbed": "T0003",
+          "absorbed_new_local_index": 2,
+          "into": "T0001",
+          "into_new_local_index": 0,
+          "previous_local_index": null,
+          "reason": "max_topics=2 exceeded; most redundant topic absorbed by content similarity",
+          "similarity": 0.995812
+        }
+      ],
+      "current": {
+        "0": "T0001",
+        "1": "T0002"
+      }
+    },
+    "merge": {
+      "current": {
+        "0": "T0001"
+      },
+      "merges": [
+        {
+          "absorbed": "T0002",
+          "new_local_index": 0,
+          "reason": "competing claim on one current topic; the weaker claim is merged and its document mass folded into the survivor",
+          "similarity": 0.707107,
+          "survivor": "T0001"
+        }
+      ],
+      "previous": {
+        "0": "T0001",
+        "1": "T0002"
+      },
+      "remap_of_both_previous_topics": [
+        [
+          [
+            0,
+            1.0
+          ]
+        ],
+        {
+          "dropped_mass": 0.0,
+          "input_mass": 1.0,
+          "output_mass": 1.0,
+          "total_conserved": true
+        }
+      ]
+    },
+    "revival": {
+      "current": {
+        "0": "T0002",
+        "1": "T0001"
+      },
+      "original_uid": "T0002",
+      "revivals": [
+        {
+          "label": "gamma / delta",
+          "new_local_index": 0,
+          "reason": "a dormant identifier reclaimed an unclaimed current topic by content",
+          "similarity": 1.0,
+          "topic_uid": "T0002"
+        }
+      ]
+    },
+    "split": {
+      "current": {
+        "0": "T0003",
+        "1": "T0001"
+      },
+      "previous": {
+        "0": "T0001"
+      },
+      "splits": [
+        {
+          "parent": "T0001",
+          "parent_share": 0.666667,
+          "primary_new_local_index": 1,
+          "reason": "one previous topic's vocabulary spread across several current topics; the branch with the larger share keeps the parent identifier",
+          "secondary": "T0003",
+          "secondary_new_local_index": 0,
+          "secondary_share": 0.333333
+        }
+      ]
+    }
+  }
+}
